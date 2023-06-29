@@ -1,6 +1,8 @@
 # touchFluid
 ### Fluids in TouchDesigner and GLSL
 
+Jerry Isdale fork of [kamindustries repo](https://github.com/kamindustries/touchFluid). Most of ReadMe is from that.  I originally found [Bruno Imbrizi fluid tutorial on youtube](https://www.youtube.com/watch?v=2k6H5Qa_fCE). There is no code repo for that.  Kurt (KamIndustries) does credit Bruno with the GLSL code in his [post to Derivative Community](https://derivative.ca/community-post/asset/fluid-simulation-component/65741).  My changes are focused on reusing the TOX as an effect on my Hand_Emitters tool in [Pose2Art project](https://github.com/MauiJerry/Pose2Art).
+
 touchFluid is a lightweight 2d Semi-Lagrangian fluid solver for TouchDesigner. It features vorticity confinement, temperature, buoyancy, and obstacles.
 
 The repo has a .toe project file and a .tox component file. The project file shows examples of impulses and obstacles: holding 1, 2, and 3 on the keyboard will add velocity, density, and temperature at the mouse position. The tox is just the core simulation component with inputs and outputs for the advection of velocity, density/temperature, and RGBA color fields.
